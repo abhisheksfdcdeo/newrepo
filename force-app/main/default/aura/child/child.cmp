@@ -1,0 +1,17 @@
+<!--
+  @description       : 
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 09-13-2021
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<aura:component>
+    <aura:handler name="componentEventBubble" 
+        event="c:componentEventBubble" 
+        action="{!c.componentEventHandler}" 
+        includeFacets="true"/>
+    <lightning:card >
+        child component:
+    </lightning:card>
+    {!v.body}
+</aura:component>	

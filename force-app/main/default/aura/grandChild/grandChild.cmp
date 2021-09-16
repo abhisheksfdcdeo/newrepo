@@ -1,0 +1,13 @@
+<!--
+  @description       : 
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 09-13-2021
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<aura:component>
+    <aura:registerEvent name="componentEventBubble" type="c:componentEventBubble" />
+    <lightning:card >
+      grandChild Component:  <lightning:button label="fire compoennt event in bubble phase" onclick="{!c.onclick}"/>
+    </lightning:card>
+</aura:component>	
