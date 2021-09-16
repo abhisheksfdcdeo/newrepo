@@ -2,7 +2,7 @@
   @description       : 
   @author            : ChangeMeIn@UserSettingsUnder.SFDoc
   @group             : 
-  @last modified on  : 09-13-2021
+  @last modified on  : 09-16-2021
   @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
 -->
 <aura:component>
@@ -11,7 +11,7 @@
         action="{!c.componentEventHandler}" 
         />
     <lightning:card >
-        parent component: 
+        parent component1: 
         <c:child >
             <c:grandChild />
         </c:child>    
