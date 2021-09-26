@@ -2,10 +2,10 @@
   @description       : 
   @author            : ChangeMeIn@UserSettingsUnder.SFDoc
   @group             : 
-  @last modified on  : 09-16-2021
+  @last modified on  : 09-27-2021
   @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
 -->
-<aura:component>
+<aura:component> 
     <aura:handler name="componentEventBubble" 
         event="c:componentEventBubble" 
         action="{!c.componentEventHandler}" 
